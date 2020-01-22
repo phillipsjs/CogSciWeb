@@ -730,12 +730,25 @@ header .navbar {
     transition: .4s all;
 }
 
-.team .block img {
+#pubs .block img {
     width: 344px;
     height: 200px;
     margin-bottom: 80px;
     scale: .8;
     position: relative;
+}
+
+.team .block img {
+    width: 292px;
+    height: 306px;
+    margin-bottom: 80px;
+    scale: .8;
+    position: relative;
+}
+
+.subt {
+    text-align: left;
+    margin-bottom: 35px;
 }
 
 .team .block:hover {
@@ -761,7 +774,6 @@ header .navbar {
 
 .team .team-overlay {
     background: rgba(255, 255, 255, 0.95);
-    color: #fff;
     text-align: center;
     padding: 10px 10px;
     position: absolute;
