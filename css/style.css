@@ -500,7 +500,7 @@ header .navbar {
 
 #publications .block .recent-work-mixMenu ul li button:hover {
     color: #00693E;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 #publications .block .recent-work-mixMenu ul li button:focus {
@@ -682,6 +682,11 @@ header .navbar {
 #research .media .media-left a {
     position: relative;
     display: block;
+}
+
+.media-left img {
+    height: 250px;
+    width: 370px;
 }
 
 #research .media .media-left a:before {
