@@ -217,7 +217,7 @@ header {
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    margin-left: 67px;
 }
 
 header .navbar {
@@ -240,8 +240,8 @@ header .navbar {
 } */
 
 #nav {
-    display: flex;
-    justify-content: space-around;
+    display: inline-flex;
+    /* justify-content: space-around; */
     margin: 15px;
 }
 
@@ -250,7 +250,7 @@ header .navbar {
 }
 
 #space_left {
-    margin-right: 40px;
+    margin-left: 50px;
 }
 
 .navbar-fixed-top {
@@ -771,6 +771,14 @@ a:hover {
     margin-bottom: 80px;
     position: relative;
     border-radius: 10px;
+}
+
+.linkchng a {
+    color: #A5D75E;
+}
+
+.linkchng a:hover {
+    color: #015134;
 }
 
 .col-md-3 {
