@@ -112,7 +112,7 @@ a:active {
 
 .title {
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
 .title h2 {
@@ -743,6 +743,16 @@ a:hover {
     padding-top: 2px;
 }
 
+.icons {
+    margin-top: 20px;
+}
+
+.map {
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+}
+
 #research .media .media-body {
     padding-top: 5px;
 }
@@ -767,7 +777,6 @@ a:hover {
 
 .team .block {
     position: relative;
-    overflow: hidden;
     border: 3px solid transparent;
     -webkit-transition: .4s all;
     -o-transition: .4s all;
@@ -778,16 +787,21 @@ a:hover {
     width: 344px;
     height: 200px;
     margin-bottom: 80px;
-    scale: .8;
     position: relative;
+    border-radius: 10px;
 }
 
-.team .block img {
+.peeps img {
     width: 292px;
     height: 306px;
     margin-bottom: 80px;
-    scale: .8;
+    transform: scale(.85);
     position: relative;
+    border-radius: 10px;
+}
+
+.team-overlay h3 {
+    margin-top: 20px;
 }
 
 .subt {
