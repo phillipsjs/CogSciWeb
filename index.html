@@ -41,23 +41,40 @@
                 <!-- /responsive nav button -->
 
                 <!-- logo -->
-                <h1 class="navbar-brand">
-                    <a href="#body"><img src="img/logo.png" height="40" width="164" alt=""></a>
-                </h1>
+                <!-- <h1 class="navbar-brand">
+                    <a href="https://www.dartmouth.edu/~phillab"><img src="img/circle_logo.png" height="47" width="47" alt="Phillab Logo"></a>
+                </h1> -->
                 <!-- /logo -->
             </div>
 
             <!-- NAV BAR -->
 
-            <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                <ul id="nav" class="nav navbar-nav menu">
+            <nav class="collapse navbar-collapse" role="navigation">
+                <div id="nav" class="nav menu">
+                    <a href="https://www.dartmouth.edu/~phillab"><img src="img/circle_logo.png" height="47" width="47" alt="Phillab Logo"></a>
+                    <a href="#top">Home</a>
+                    <a href="#publications">Publications</a>
+                    <a href="#research">Research</a>
+                    <a href="#teamid">Team</a>
+                    <a href="#joinus">Join Us</a>
+                    <a href="#contact">Contact</a>
+                    <a href="https://home.dartmouth.edu/"><img src="img/dartlogo.png" height="40" width="40" alt="Dartmouth Logo"></a>
+                </div>
+
+
+
+
+                <!-- <ul id="nav" class="nav navbar-nav menu">
                     <li><a href="#top">Home</a></li>
                     <li><a href="#publications">Publications</a></li>
                     <li><a href="#research">Research</a></li>
                     <li><a href="#teamid">Team</a></li>
                     <li><a href="#joinus">Join Us</a></li>
                     <li><a href="#contact">Contact</a></li>
-                </ul>
+                    <li>
+                        <a href="https://home.dartmouth.edu/"><img src="img/dartlogo.png" height="40" width="40" alt="Dartmouth Logo"></a>
+                    </li>
+                </ul> -->
             </nav>
             <!-- /main nav -->
 
@@ -68,66 +85,29 @@
     <div class="wrapper">
         <section id="banner">
             <div class="container">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1>PhilLab</h1>
-                        <h2>Welcome to the Phillips Lab at Dartmouth College. <br> We explore the mind through cutting edge Cognitive Science research.</h2>
-                    </div>
+                <div>
+                    <img src="img/bigPhil.png" height="450px" width="350px">
+                    <p>
+                        <b>Contact</b>
+                        <br> Carpenter Hall, Dartmouth College <br> Hanover, NH 03755
+                    </p>
+                </div>
+                <div id="home_content">
+                    <p>We are part of Dartmouth’s interdisciplinary <a href="https://cognitive-science.dartmouth.edu/">Program in Cognitive Science</a>, and graduate students complete their PhD work in the <a href="https://pbs.dartmouth.edu/">Department of Psychological and Brain Sciences</a>.</p>
+                    <br>
+                    <p>The lab’s research draws on a broad range of the methods employed across psychology, philosophy, linguistics, and computer science to better understand questions about how humans think both about the actual world and about non-actual
+                        possibilities (sometimes called “possible worlds”).</p>
+                    <br>
+                    <p>
+                        We explore both how people think about possibilities themselves and how that influences the way that they think more generally, from the language they use, to the causal and moral judgments they make. Find our more about our
+                        <a href="/~phillab/research">research</a>
+                    </p>
                 </div>
             </div>
             <div class="scrolldown">
                 <a id="scroll" href="#publications" class="scroll"></a>
             </div>
         </section>
-
-        <!-- STATS Break  -->
-
-        <!-- <section id="counter">
-            <div class="container">
-                <div class="row">
-                    <div class="title">
-                        <h2>Lab Stats</h2>
-                        <p>Since PhilLab's 20-- opening, we have explored... <br> lorem ipsum random text</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="block wow fadeInRight" data-wow-delay=".3s">
-                            <i class="ion-code"></i>
-                            <p class="count-text">
-                                <span class="counter-digit">136800 </span> 
-                            </p>
-                            <p>Lines Coded</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="block wow fadeInRight" data-wow-delay=".5s">
-                            <i class="ion-compass"></i>
-                            <p class="count-text">
-                                <span class="counter-digit">7800 </span> +
-                            </p>
-                            <p>Papers Writtwn</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="block wow fadeInRight" data-wow-delay=".7s">
-                            <i class="ion-compose"></i>
-                            <p class="count-text">
-                                <span class="counter-digit">399</span>
-                            </p>
-                            <p>Topics Explored</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="block wow fadeInRight" data-wow-delay=".9s">
-                            <i class="ion-image"></i>
-                            <p class="count-text">
-                                <span class="counter-digit">9995</span>
-                            </p>
-                            <p>Lines Coded</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <!--  PUBLICATIONS  -->
 
@@ -145,16 +125,16 @@
                                     <li><button class="filter" data-filter=".all">All</button></li>
                                     <li><button class="filter" data-filter=".poss">Possibilities</button></li>
                                     <li><button class="filter" data-filter=".causation">Causation</button></li>
-                                    <li><button class="filter" data-filter=".freedom">Freedom</button></li>
+                                    <li><button class="filter" data-filter=".morality">Morality</button></li>
                                     <li><button class="filter" data-filter=".tom">Theory of Mind</button></li>
-                                    <li><button class="filter" data-filter=".communication">Communication</button></li>
+                                    <li><button class="filter" data-filter=".semantics">Semantics</button></li>
                                 </ul>
                             </div>
 
                             <ul id="mixed-items">
                                 <div class="team" id="pubs">
-                                    <li class="mix all poss col-md-4 col-xs-6" data-my-order="1">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix poss col-md-4 col-xs-6" data-my-order="1">
+                                        <div class="block wow fadeInLeft">
                                             <h3 id="pub_title"> How We Know What Not To Think </h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/howWeKnow.PNG">
                                             <div class="team-overlay">
@@ -168,8 +148,8 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mix all tom col-md-4 col-xs-6" data-my-order="2">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix tom col-md-4 col-xs-6" data-my-order="2">
+                                        <div class="block wow ">
                                             <h3 id="pub_title">Knowledge before belief</h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/manifesto.png">
                                             <div class="team-overlay">
@@ -184,8 +164,8 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mix all causation col-md-4 col-xs-6" data-my-order="3">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix morality causation col-md-4 col-xs-6" data-my-order="3">
+                                        <div class="block wow ">
                                             <h3 id="pub_title">Immoral professors and malfunctioning tools</h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/komPhil.jpeg">
                                             <div class="team-overlay">
@@ -201,8 +181,8 @@
                                         </div>
                                     </li>
 
-                                    <li class="mix all tom col-md-4 col-xs-6" data-my-order="4">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix tom col-md-4 col-xs-6" data-my-order="4">
+                                        <div class="block wow ">
                                             <h3 id="pub_title"> Factive theory of mind </h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/factiveToM.png">
                                             <div class="team-overlay">
@@ -216,8 +196,8 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mix all causation col-md-4 col-xs-6" data-my-order="5">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix causation col-md-4 col-xs-6" data-my-order="5">
+                                        <div class="block wow ">
                                             <h3 id="pub_title">Quantitative causal selection patterns in token causation</h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/quantCause.PNG">
                                             <div class="team-overlay">
@@ -231,8 +211,8 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mix all tom col-md-4 col-xs-6" data-my-order="6">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix semantics tom col-md-4 col-xs-6" data-my-order="6">
+                                        <div class="block wow ">
                                             <h3 id="pub_title">Knowledge wh and False Beliefs: Experimental Investigations</h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/know-wh2.png">
                                             <div class="team-overlay">
@@ -248,8 +228,8 @@
                                         </div>
                                     </li>
 
-                                    <li class="mix all causation poss communication freedom col-md-4 col-xs-6" data-my-order="7">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix poss freedom col-md-4 col-xs-6" data-my-order="7">
+                                        <div class="block wow ">
                                             <h3 id="pub_title"> The psychological representation of modality </h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/modality.png">
                                             <div class="team-overlay">
@@ -263,8 +243,8 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mix all tom col-md-4 col-xs-6" data-my-order="8">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix poss col-md-4 col-xs-6" data-my-order="8">
+                                        <div class="block wow ">
                                             <h3 id="pub_title">Differentiating could from should</h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/shtulman.png">
                                             <div class="team-overlay">
@@ -280,8 +260,8 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mix all causation col-md-4 col-xs-6" data-my-order="9">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix causation col-md-4 col-xs-6" data-my-order="9">
+                                        <div class="block wow ">
                                             <h3 id="pub_title">Causation and norms of proper functioning</h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/stillRelevant.png">
                                             <div class="team-overlay">
@@ -299,25 +279,8 @@
                                         </div>
                                     </li>
 
-                                    <li class="mix all poss col-md-4 col-xs-6" data-my-order="10">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
-                                            <h3 id="pub_title">Morality constrains the default representation of what is possible</h3>
-                                            <img src="https://www.dartmouth.edu/~phillab/images/pubpic/implicit.jpg">
-                                            <div class="team-overlay">
-                                                <h3 id="pub_title">Morality constrains the default representation of what is possible</h3>
-                                                <p>Three studies differentiate explicit reasoning about possibilities from default implicit representations, demonstrate that human adults often default to treating immoral and irrational events as impossible,
-                                                    and demonstrate that high-level cognitive judgments rely on default implicit representations of possibility rather than explicit reasoning.</p>
-                                                <p><em>Jonathan Phillips, <a href="http://cushmanlab.fas.harvard.edu/">Fiery Cushman</a></em></p>
-                                                <p><strong><a href="http://www.pnas.org/content/114/18/4649.abstract">Proceedings of the National Academy of Sciences (2017)</a></strong></p>
-                                                <p class="text-danger"><strong> Check out some of the coverage in <a href="https://aeon.co/ideas/but-you-cant-do-that-why-immoral-actions-seem-impossible">Aeon</a>, <a href="http://news.harvard.edu/gazette/story/2017/04/study-finds-people-equate-immorality-with-impossibility/">Harvard Gazette</a>, <a href="https://www.byuradio.org/episode/346d3d6d-a5d8-4e14-9a73-c29ac39b8905?playhead=4140&amp;autoplay=true">a radio interview</a>, or <a href="https://www.thesciencebreaker.com/breaks/psychology/by-default-people-treat-immoral-actions-as-impossible">Science Breakers</a></strong></p>
-                                                <p> <a href="http://www.pnas.org/content/suppl/2017/04/17/1619717114.DCSupplemental/pnas.201619717SI.pdf#nameddest=STXT">Supporting Information</a>&nbsp; &nbsp;<a href="../downloads/phillips2017possibility.bib">.bib</a>&nbsp;&nbsp;
-                                                    <a href="https://github.com/phillipsjs/implicitModality">github</a>&nbsp;&nbsp;
-                                                    <a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C22&amp;q=Morality+constrains+the+default+representation+of+what+is+possible&amp;btnG=">scholar</a> &nbsp; &nbsp; <a href="https://imperfectcognitions.blogspot.co.uk/2017/08/morality-constrains-what-we-implicitly.html">blog post</a></p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="mix all communication col-md-4 col-xs-6" data-my-order="11">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix morality possibiity col-md-4 col-xs-6" data-my-order="10">
+                                        <div class="block wow ">
                                             <h3 id="pub_title">The role of morality in the folk concept of happiness</h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/trueHappiness.jpg">
                                             <div class="team-overlay">
@@ -333,8 +296,8 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mix all causation poss freedom col-md-4 col-xs-6" data-my-order="12">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix morality causation col-md-4 col-xs-6" data-my-order="11">
+                                        <div class="block wow ">
                                             <h3 id="pub_title">Unifying morality's influence on non-moral judgments</h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/RoA.png">
                                             <div class="team-overlay">
@@ -350,8 +313,8 @@
                                         </div>
                                     </li>
 
-                                    <li class="mix all tom col-md-4 col-xs-6" data-my-order="13">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix tom col-md-4 col-xs-6" data-my-order="12">
+                                        <div class="block wow ">
                                             <h3 id="pub_title">A second look at automatic theory of mind</h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/KTE.PNG">
                                             <div class="team-overlay">
@@ -365,8 +328,8 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mix all causation col-md-4 col-xs-6" data-my-order="14">
-                                        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                                    <li class="all mix possibility semantics morality col-md-4 col-xs-6" data-my-order="13">
+                                        <div class="block wow ">
                                             <h3 id="pub_title">Causal superseding</h3>
                                             <img src="https://www.dartmouth.edu/~phillab/images/pubpic/causalSuperseding.PNG">
                                             <div class="team-overlay">
@@ -382,6 +345,93 @@
                                         </div>
                                     </li>
 
+                                    <li class="all mix morality causation possibility col-md-4 col-xs-6" data-my-order="14">
+                                        <div class="block wow ">
+                                            <h3 id="pub_title">Sticky situations: Force and quantifier domains</h3>
+                                            <img src="img/sticky.jpg">
+                                            <div class="team-overlay">
+                                                <h3 id="pub_title">Sticky situations: Force and quantifier domains</h3>
+                                                <p>
+                                                    When do we judge that someone was forced to do what they did? One relatively well-established finding is that subjects tend to judge that agents were not forced to do actions when those actions violate norms. A surprising discovery of Young & Phillips
+                                                    2011 is that this effect seems to disappear when we frame the relevant ‘force’-claim in the active rather than passive voice (pX forced Y to ϕq vs. pY was forced to ϕ by Xq). Young and Phillips found
+                                                    a similar contrast when the scenario itself shifts attention from Y (the forcee) to X (the forcer). We propose that these effects can be (at least partly) explained by way of the role of attention in
+                                                    the setting of quantifier domains which in turn play a role in the evaluation of ‘force’- claims.
+                                                </p>
+                                                <em>Jonathan Phillips, <a href="http://users.ox.ac.uk/~sfop0776/">Matthew Mandelkern</a> </em><br><a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/28.474">Proceedings of Semantics and Linguistic Theory (SALT), 28 (2018)</a><br>
+                                                <a href="https://osf.io/crxdq/">OSF</a>&nbsp; &nbsp;<a href="https://github.com/phillipsjs/stickySituations">github</a>&nbsp; &nbsp;<a href="https://aspredicted.org/6qa2t.pdf">pre-registration</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="all mix possibility semantics col-md-4 col-xs-6" data-my-order="15">
+                                        <div class="block wow ">
+                                            <h3 id="pub_title">New horizons for a theory of epistemic modals</h3>
+                                            <img src="img/horizon.jpg">
+                                            <div class="team-overlay">
+                                                <p>
+                                                    Recent debate over the semantics and pragmatics of epistemic modals has focused on intuitions about cross-contextual truth-value assessments. In this paper, we advocate a different approach to evaluating theories of epistemic modals. Our strategy focuses
+                                                    on judgments of the incompatibility of two different epistemic possibility claims, or two different truth value assessments of a single epistemic possibility claim. We subject the predictions of existing
+                                                    theories to empirical scrutiny, and argue that existing contextualist and relativist theories are unable to account for the full pattern of observed judgments. As a way of illustrating the theoretical
+                                                    upshot of these results, we conclude by developing a novel theory of epistemic modals that is able to predict the results.
+                                                </p>
+                                                <h3 id="pub_title">New horizons for a theory of epistemic modals</h3>
+                                                <em>Jonathan Phillips, <a href="http://web.mit.edu/jkhoo/www/">Justin Khoo</a> </em><br><a href="https://www.tandfonline.com/eprint/qwIfzSJzXBXuXpkDqJ9F/full">Australasian Journal of Philosophy, (2018)</a><br>
+                                                <a href="../downloads/KhooPhillips-2018.pdf">preprint</a> &nbsp; &nbsp; <a href="https://github.com/phillipsjs/newHorizonsForEpistemicModals">github</a>&nbsp; &nbsp;<a href="https://osf.io/mhsfe/">OSF</a>&nbsp;
+                                                &nbsp;
+                                                <a href="https://osf.io/czu2w">preprint</a>&nbsp; &nbsp;
+                                                <a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C33&amp;q=%22New+horizons+for+a+theory+of+epistemic+modals%22+phillips">scholar</a>&nbsp; &nbsp;<a href="../downloads/khoo2018newHorizons.bib">.bib</a>&nbsp;
+                                                &nbsp;
+                                                <a href="../downloads/contextualTruth_handout.pdf">handout</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="all mix morality poss col-md-4 col-xs-6" data-my-order="16">
+                                        <div class="block wow ">
+                                            <h3 id="pub_title">Morality constrains the default representation of what is possible</h3>
+                                            <img src="https://www.dartmouth.edu/~phillab/images/pubpic/implicit.jpg">
+                                            <div class="team-overlay">
+                                                <h3 id="pub_title">Morality constrains the default representation of what is possible</h3>
+                                                <p>Three studies differentiate explicit reasoning about possibilities from default implicit representations, demonstrate that human adults often default to treating immoral and irrational events as impossible,
+                                                    and demonstrate that high-level cognitive judgments rely on default implicit representations of possibility rather than explicit reasoning.</p>
+                                                <p><em>Jonathan Phillips, <a href="http://cushmanlab.fas.harvard.edu/">Fiery Cushman</a></em></p>
+                                                <p><strong><a href="http://www.pnas.org/content/114/18/4649.abstract">Proceedings of the National Academy of Sciences (2017)</a></strong></p>
+                                                <p class="text-danger"><strong> Check out some of the coverage in <a href="https://aeon.co/ideas/but-you-cant-do-that-why-immoral-actions-seem-impossible">Aeon</a>, <a href="http://news.harvard.edu/gazette/story/2017/04/study-finds-people-equate-immorality-with-impossibility/">Harvard Gazette</a>, <a href="https://www.byuradio.org/episode/346d3d6d-a5d8-4e14-9a73-c29ac39b8905?playhead=4140&amp;autoplay=true">a radio interview</a>, or <a href="https://www.thesciencebreaker.com/breaks/psychology/by-default-people-treat-immoral-actions-as-impossible">Science Breakers</a></strong></p>
+                                                <p> <a href="http://www.pnas.org/content/suppl/2017/04/17/1619717114.DCSupplemental/pnas.201619717SI.pdf#nameddest=STXT">Supporting Information</a>&nbsp; &nbsp;<a href="../downloads/phillips2017possibility.bib">.bib</a>&nbsp;&nbsp;
+                                                    <a href="https://github.com/phillipsjs/implicitModality">github</a>&nbsp;&nbsp;
+                                                    <a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C22&amp;q=Morality+constrains+the+default+representation+of+what+is+possible&amp;btnG=">scholar</a> &nbsp; &nbsp; <a href="https://imperfectcognitions.blogspot.co.uk/2017/08/morality-constrains-what-we-implicitly.html">blog post</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="all mix causality morality col-md-4 col-xs-6" data-my-order="17">
+                                        <div class="block wow ">
+                                            <h3 id="pub_title">Manipulating Morality: Third-Party Intentions Alter Moral Judgments by Changing Causal Reasoning</h3>
+                                            <img src="img/manipulating.jpg">
+                                            <div class="team-overlay">
+                                                <h3 id="pub_title">Manipulating Morality: Third-Party Intentions Alter Moral Judgments by Changing Causal Reasoning</h3>
+                                                <p>
+                                                    The present studies investigate how the intentions of third parties influence judgments of moral responsibility for other agents who commit immoral acts. Using cases in which an agent acts under some situational constraint brought about by a third party,
+                                                    we ask whether the agent is blamed less for the immoral act when the third party intended for that act to occur.
+                                                </p>>
+                                                <p><b>Manipulating Morality: Third-Party Intentions Alters Moral Judgments by Changing Causal Reasoning</b> <br>
+                                                    <em>Jonathan Phillips, <a href="https://sites.google.com/site/alexshawyale/">Alex Shaw</a> </em><br><a href="http://onlinelibrary.wiley.com/doi/10.1111/cogs.12194/abstract">Cognitive Science (2014)</a><br>
+                                                    <a href="../downloads/Phillips_Manipulating_Morality.pdf">preprint</a> &nbsp; &nbsp; <a href="https://github.com/phillipsjs/Manipulation">github</a> &nbsp; &nbsp; <a href="https://osf.io/sdupw/">osf</a>&nbsp;
+                                                    &nbsp; <a href="http://philosophycommons.typepad.com/xphi/2016/01/knowledge-of-being-manipulated-does-not-affect-moral-responsibility-what.html">update</a> &nbsp; &nbsp; <a href="http://philosophycommons.typepad.com/flickers_of_freedom/2014/08/the-manipulation-argument-experimental-style.html">blog</a>                                                    &nbsp; &nbsp; <a href="http://yaledailynews.com/blog/2014/11/18/influenced-by-others-less-at-fault/">media</a> &nbsp; &nbsp; <a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C22&amp;q=Manipulating+Morality%3A+Third-Party+Intentions+Alter+Moral+Judgments+by+Changing+Causal+Reasoning&amp;btnG=">scholar</a>                                                    &nbsp; &nbsp; <a href="../downloads/phillips2014manipulating.bib">.bib</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="all mix possibility morality col-md-4 col-xs-6" data-my-order="18">
+                                        <div class="block wow ">
+                                            <h3 id="pub_title">The paradox of moral focus</h3>
+                                            <img src="img/paradox.jpg">
+                                            <div class="team-overlay">
+                                                <h3 id="pub_title">The paradox of moral focus</h3>
+                                                href="http://moralitylab.bc.edu/">Liane Young</a>, Jonathan Phillips </em><br><a href="http://www.sciencedirect.com/science/article/pii/S0010027711000175">Cognition (2011)</a><br><a href="../downloads/YoungPhillipsCognitionIP.pdf">preprint</a>                                                &nbsp; &nbsp; <a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C22&amp;q=%22The+paradox+of+moral+focus%22&amp;btnG=">scholar</a> &nbsp; &nbsp; <a href="https://escholarship.org/uc/item/6q04z6jf">CogSci proceeding</a>                                                &nbsp; &nbsp; <a href="../downloads/young2011paradox.bib">.bib</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
                                 </div>
                             </ul>
                         </div>
@@ -475,7 +525,7 @@
                         </div>
                         <div class="media-body">
                             <a href="#">
-                                <h4 class="media-heading">Linguistic Communication</h4>
+                                <h4 class="media-heading">Semantics</h4>
                             </a>
                             <p>In our work on language, our lab largely focuses on developing formal semantic theories of modal terms—words like ‘might’ or ‘could’. Specifically, we’ve tried to provide an account of the meaning of these terms that integrates
                                 our emerging understanding of how people represent non-actual possibilities at a psychological level with standard semantics accounts that have been developed over the past half century in linguistics and philosophy. In
@@ -488,23 +538,6 @@
         </div>
     </section>
 
-    <!-- OPTIONAL VIDEO BREAK -->
-
-    <!-- <section id="play-video">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <h2 class="wow fadeInUp" data-wow-delay=".3s">GET THE TEMPLATE</h2>
-                            <p class="wow fadeInUp" data-wow-delay=".5s">Dantes remained confused and silent by this explanation of the </p>
-                            <a href="https://vimeo.com/channels/staffpicks/145743834" class="html5lightbox" data-width=800 data-height=400>
-                                <div class="button ion-ios-play-outline wow zoomIn" data-wow-delay=".3s"></div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
     <section class="team" id="teamid">
         <div class="container">
@@ -954,8 +987,17 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block">
-                        <a href="#"><img src="img/logo.png" alt=""></a>
-                        <p>All rights reserved ©2020</p>
+                        <ul>
+                            <li>
+                                <a href="#"><img id="footimg" src="img/circle_logo.png" height="40px" width="40px" alt=""></a>
+                            </li>
+                            <li id="foottags">
+                                <p>Site adapted from Themefisher
+                                    <a href="https://themefisher.com/products/themelight-bootstrap-business-one-page-website-template/"><img src="img/logo.png" height="20px" width="90px"></a>
+                                </p>
+                                <p>All rights reserved ©2020</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
