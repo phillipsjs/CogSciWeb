@@ -209,9 +209,15 @@ a:active {
 /* header style */
 
 header {
-    padding-top: 20px;
     background: #005235;
     color: #fff;
+}
+
+.links {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
 }
 
 header .navbar {
@@ -235,16 +241,25 @@ header .navbar {
 
 #nav {
     display: flex;
-    justify-content: space-between;
-    margin: 10px;
+    justify-content: space-around;
+    margin: 15px;
 }
 
+#lab {
+    margin-right: 40px;
+}
 
-/* .navbar-brand {
-    position: absolute;
-    left: 80px;
-    bottom: 30px;
-} */
+#space_left {
+    margin-right: 40px;
+}
+
+.navbar-fixed-top {
+    position: sticky;
+}
+
+.container {
+    width: 80%;
+}
 
 .navbar-toggle {
     border-color: #333;
@@ -290,10 +305,6 @@ a:hover {
     color: #A5D75E;
 }
 
-.menu .active a {
-    color: #A5D75E;
-}
-
 .menu .active a:before {
     width: 25px;
 }
@@ -310,15 +321,17 @@ a:hover {
 #banner .container {
     display: flex;
     flex-direction: row;
-    margin-top: 170px;
+    padding-top: 75px;
 }
 
 #banner {
     height: 100vh;
+    background-color: #FBFBFB;
 }
 
 #home_content {
     margin-left: 80px;
+    margin-top: 115px;
 }
 
 #banner>div.container>div:nth-child(1)>p {
@@ -377,41 +390,6 @@ a:hover {
 
 #banner .block .buttons a:first-child {
     margin-left: 0;
-}
-
-#banner .scrolldown {
-    position: absolute;
-    left: 50%;
-    bottom: 18%;
-}
-
-#banner .scrolldown .scroll {
-    border-radius: 100px;
-    width: 25px;
-    height: 45px;
-    position: absolute;
-    left: 50%;
-    margin: 0 0 0 -15px;
-    display: inline-block;
-    border: 1px solid #fff;
-    z-index: 99;
-}
-
-#banner .scrolldown .scroll:after {
-    background: #fff;
-    border-radius: 300px;
-    width: 4px;
-    height: 9px;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    margin: 0 0 0 -2px;
-    display: block;
-    content: " ";
-    -webkit-animation: wiggle 0.5s linear 0s infinite alternate;
-    -moz-animation: wiggle 0.5s linear 0s infinite alternate;
-    -o-animation: wiggle 0.5s linear 0s infinite alternate;
-    animation: wiggle 0.5s linear 0s infinite alternate;
 }
 
 #features {
@@ -747,6 +725,10 @@ a:hover {
     margin-top: 20px;
 }
 
+.icons a {
+    margin-left: 5px;
+}
+
 .map {
     justify-content: space-around;
     width: 100%;
@@ -784,20 +766,25 @@ a:hover {
 }
 
 #pubs .block img {
-    width: 344px;
-    height: 200px;
+    width: 330px;
+    height: 230px;
     margin-bottom: 80px;
     position: relative;
     border-radius: 10px;
 }
 
+.col-md-3 {
+    display: flex;
+}
+
 .peeps img {
-    width: 292px;
+    width: 287px;
     height: 306px;
     margin-bottom: 80px;
     transform: scale(.85);
     position: relative;
     border-radius: 10px;
+    justify-content: center;
 }
 
 .team-overlay h3 {
@@ -994,6 +981,7 @@ footer {
     padding-top: 10px;
     color: white;
     font-size: 12px;
+    text-align: end;
 }
 
 
