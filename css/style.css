@@ -105,9 +105,24 @@ a:active {
     border-radius: 0;
 }
 
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: transparent;
+}
+
 .nav>a:hover,
 .nav>a:focus {
     background: transparent;
+}
+
+#nav li {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
 }
 
 .title {
@@ -239,26 +254,24 @@ header .navbar {
     margin-top: -10px;
 } */
 
-#nav {
+#bar {
     display: inline-flex;
     /* justify-content: space-around; */
     margin: 15px;
 }
 
-#lab {
-    margin-right: 40px;
-}
-
 #space_left {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .navbar-fixed-top {
     position: sticky;
 }
 
-.container {
+#barC {
     width: 80%;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-toggle {
