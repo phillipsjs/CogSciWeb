@@ -264,6 +264,14 @@ header .navbar {
     margin-left: 60px;
 }
 
+a#space_left:before {
+    background: transparent;
+}
+
+#nobar:before {
+    background: transparent;
+}
+
 .navbar-fixed-top {
     position: sticky;
 }
