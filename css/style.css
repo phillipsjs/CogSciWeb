@@ -347,12 +347,12 @@ a:hover {
 
 #banner {
     height: 100vh;
-    background-color: #FBFBFB;
+    background-color: #FFFFFF;
 }
 
 #home_content {
     margin-left: 80px;
-    margin-top: 115px;
+    margin-top: 75px;
 }
 
 #banner>div.container>div:nth-child(1)>p {
