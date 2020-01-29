@@ -777,8 +777,13 @@ a:hover {
     color: #787878;
 }
 
+#sub,
+input {
+    display: none;
+}
+
 .team {
-    padding: 50px 0 180px;
+    padding: 50px 0;
     background-color: #F5F5F5
 }
 
@@ -1641,6 +1646,10 @@ textarea {
     .col-md-12 {
         padding: 0px;
     }
+    #sub,
+    input {
+        display: list-item;
+    }
     .resphide,
     .resphide2,
     .resphide3,
@@ -1746,6 +1755,9 @@ textarea {
     }
     .subt {
         margin: 0px;
+    }
+    .subt2 {
+        display: none;
     }
     .subt h2 {
         font-size: 16px;
