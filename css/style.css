@@ -511,6 +511,10 @@ a:hover {
     padding: 20px 0px;
 }
 
+#publications_mobile {
+    display: none;
+}
+
 #publications {
     padding: 100px 0;
     background-color: #F5F5F5
@@ -1528,4 +1532,198 @@ textarea {
     color: #fff;
     -webkit-transition-duration: .2s;
     -webkit-transition-timing-function: ease-in-out;
+}
+
+@media screen and (max-width: 992px) {
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .container img {
+        width: 300px;
+        height: 300px;
+    }
+    #banner {
+        height: auto;
+        margin-bottom: 40px;
+    }
+    #banner .container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+    }
+    #home_content {
+        margin: 0;
+        font-size: 12px;
+    }
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+        padding: 0px;
+    }
+    #publications {
+        padding: 40px 0;
+    }
+    #pubs .block img {
+        width: 150px;
+        height: 100px;
+    }
+    #pub_title {
+        font-size: 14px;
+    }
+    #mobile_hide {
+        display: none;
+    }
+    #publications_mobile {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 18px;
+        font-size: 12px;
+    }
+    #research {
+        padding: 40px 0;
+    }
+    .title {
+        padding-bottom: 0px;
+    }
+    .title p {
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 200;
+        margin: 0 20px;
+        color: #817C7C;
+    }
+    .mobcol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .media-body {
+        width: 90vw;
+        /* margin: 0 20px; */
+    }
+    #research .col {
+        padding: 0
+    }
+    .media {
+        overflow: visible;
+    }
+    #research .media .media-body p {
+        font-size: 10px;
+        margin: 0 20px;
+    }
+    #research .media .media-body h4 {
+        margin: 10px 20px;
+    }
+    #research .media .media-left {
+        padding: 0;
+    }
+    .media-left img {
+        height: 190px;
+        width: 250px;
+        margin-top: 50px;
+    }
+    .subt {
+        margin: 0px;
+    }
+    .subt h2 {
+        font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .team .team-overlay {
+        background: transparent;
+        opacity: 1;
+        position: relative;
+        font-size: 12px;
+    }
+    .media-left img {
+        width: 300px;
+        height: 170px;
+    }
+    .peeps img {
+        width: 150px;
+        height: 150px;
+    }
+    .peeps {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .peeps img {
+        margin-bottom: 0px;
+    }
+    .team .block .team-overlay {
+        bottom: 0;
+    }
+    .team .block {
+        border: 3px solid #00693E;
+        margin-bottom: 10px;
+    }
+    .col-md-3 {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: 0 5%;
+    }
+    .team-overlay {
+        width: 90% !important;
+    }
+    #blog {
+        padding: 0;
+        padding-top: 20px;
+    }
+    .team {
+        padding: 50px 0 50px;
+    }
+    #joinus {
+        padding: 50px 0 127px;
+    }
+    .title p {
+        margin-bottom: 20px;
+    }
+    #contact-form {
+        padding: 50px 0;
+        background: #f9f9f9;
+    }
+    .text-center {
+        margin-bottom: 10px;
+    }
+    #joinus {
+        padding: 50px 0 20px;
+    }
+    .map iframe {
+        width: 350px;
+        height: 350px;
+    }
+    #footimg {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+    #fish {
+        width: 50px;
+        height: 15px;
+    }
+    #foottags {
+        font-size: 8px;
+        margin-right: 15px;
+        line-height: 2.3;
+    }
 }
