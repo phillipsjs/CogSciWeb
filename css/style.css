@@ -105,6 +105,10 @@ a:active {
     border-radius: 0;
 }
 
+.navbar-header {
+    display: none;
+}
+
 .nav>li>a:focus,
 .nav>li>a:hover {
     background-color: transparent;
@@ -342,7 +346,12 @@ a:hover {
 #banner .container {
     display: flex;
     flex-direction: row;
-    padding-top: 75px;
+    padding-top: 85px;
+}
+
+.gif img {
+    transform: scale(1.2);
+    margin-left: -60px;
 }
 
 #banner {
@@ -351,8 +360,10 @@ a:hover {
 }
 
 #home_content {
-    margin-left: 80px;
+    margin-left: 50px;
     margin-top: 75px;
+    font-size: 16px;
+    z-index: 2;
 }
 
 #banner>div.container>div:nth-child(1)>p {
@@ -1563,6 +1574,9 @@ textarea {
     .navbar-collapse {
         width: 100%;
     }
+    .navbar-header {
+        display: block;
+    }
     .container-fluid>.navbar-collapse,
     .container-fluid>.navbar-header,
     .container>.navbar-collapse,
@@ -1668,6 +1682,9 @@ textarea {
         position: relative;
         display: block;
         cursor: pointer;
+    }
+    .gif img {
+        margin-left: 0;
     }
     #sub {
         font-size: 16px;
