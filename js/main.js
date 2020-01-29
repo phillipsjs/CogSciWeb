@@ -17,9 +17,7 @@ $(document).ready(function() {
             $('.peeps').removeClass('wow');
             $('.mobcol').removeClass('wow');
         }
-        // else if (ww >= 992) {
-        //   $('.test').addClass('blue');
-        // };
+
     };
     $(window).resize(function() {
         alterClass();
