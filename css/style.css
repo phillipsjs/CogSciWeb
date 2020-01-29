@@ -1641,6 +1641,46 @@ textarea {
     .col-md-12 {
         padding: 0px;
     }
+    .resphide,
+    .resphide2,
+    .resphide3,
+    .resphide4,
+    .resphide5 {
+        display: none;
+    }
+    #check01,
+    #check02,
+    #check03,
+    #check04,
+    #check05 {
+        visibility: hidden;
+    }
+    label {
+        position: relative;
+        display: block;
+        cursor: pointer;
+    }
+    #sub {
+        font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    #check01:checked~div.resphide {
+        display: flex;
+    }
+    #check02:checked~div.resphide2 {
+        display: flex;
+    }
+    #check03:checked~div.resphide3 {
+        display: flex;
+    }
+    #check04:checked~div.resphide4 {
+        display: flex;
+    }
+    #check05:checked~div.resphide5 {
+        display: flex;
+    }
     #publications {
         padding: 40px 0;
     }
@@ -1736,6 +1776,9 @@ textarea {
     .peeps img {
         margin-bottom: 0px;
     }
+    .team-overlay h3 {
+        margin-top: 0;
+    }
     .team .block .team-overlay {
         bottom: 0;
     }
@@ -1744,7 +1787,7 @@ textarea {
         margin-bottom: 10px;
     }
     .col-md-3 {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         width: 90%;
         margin: 0 5%;
