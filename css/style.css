@@ -347,7 +347,7 @@ a:hover {
 
 #banner {
     height: 100vh;
-    background-color: #FFFFFF;
+    background-color: rgb(251, 251, 251);
 }
 
 #home_content {
