@@ -829,6 +829,7 @@ input {
 .peeps img {
     width: 287px;
     height: 306px;
+    object-fit: cover;
     margin-bottom: 80px;
     transform: scale(.85);
     position: relative;

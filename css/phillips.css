@@ -1,0 +1,21 @@
+.philpic img {
+    object-fit: unset;
+    border-radius: 10%;
+    width: 450px;
+}
+
+#home_content {
+    margin-left: 150px;
+}
+
+#contact-form {
+    padding: 50px 0;
+    background: #f9f9f9;
+}
+
+@media screen and (max-width: 992px) {
+    #home_content {
+        margin: 0;
+        margin-top: 20px;
+    }
+}
