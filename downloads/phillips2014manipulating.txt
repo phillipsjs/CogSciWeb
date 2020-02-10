@@ -1,0 +1,6 @@
+@article{phillips2014manipulating,
+  title={Manipulating Morality: Third-Party Intentions Alter Moral Judgments by Changing Causal Reasoning},
+  author={Phillips, Jonathan and Shaw, Alex},
+  journal={Cognitive Science},
+  year={2014}
+}
